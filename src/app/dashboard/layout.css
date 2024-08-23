@@ -1,0 +1,68 @@
+.navbar, .footer {
+  width: calc(100% - 16rem); /* Align with sidebar */
+  left: 16rem; /* Align with sidebar */
+  background-color: white; /* Matches the footer and sidebar background */
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensures the navbar stays on top */
+}
+
+.main-content {
+  padding-top: 7rem; /* Adjust padding to avoid overlapping with navbar */
+  padding-bottom: 7rem; /* Adjust padding to avoid overlapping with footer */
+  margin-left: 16rem; /* Adjust based on sidebar width */
+}
+
+.welcome-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0; /* Adjusts the spacing around the welcome text */
+}
+
+.feature-card {
+  margin-bottom: 50px;
+  background: linear-gradient(to right, #4A90E2, #7B61FF); /* Example gradient */
+  padding: 2rem; /* Increased padding */
+}
+
+.tools-section {
+  margin-top: 50px;
+  padding: 2rem;
+  background-color: #f3f4f6; /* Light gray background */
+}
+
+.tools-section .flex-1 {
+  background-color: transparent; /* Transparent background */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: none; /* No box shadow */
+}
+
+.tools-section h3,
+.tools-section p {
+  color: #333; /* Ensure text color is dark and readable */
+}
+
+
+
+.tools-section h2, .tools-section p {
+  color: #333; /* Darker text color */
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+}
+.sidebar {
+  padding-left: 20px; /* Increase left padding */
+}
+
+.menu-item, .search-item, .support-item {
+  color: #6b7280; /* Light gray color */
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover, .search-item:hover, .support-item:hover {
+  color: #374151; /* Darker gray on hover */
+}

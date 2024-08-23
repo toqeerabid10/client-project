@@ -1,0 +1,135 @@
+/* General Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+  }
+  
+  /* Layout Styles */
+  .layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sidebar nav ul,
+  .sidebar .search ul,
+  .sidebar .support ul {
+    list-style-type: none;
+    margin: 20px 0;
+  }
+  
+  .sidebar nav ul li a,
+  .sidebar .search ul li,
+  .sidebar .support ul li {
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  .sidebar .trial-limits {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .sidebar .trial-limits button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-actions input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .header-actions button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .empty-state img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .empty-state p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e4e8;
+  }
+  

@@ -1,0 +1,188 @@
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  padding-left: 20px;
+  background-color: #ffffff;
+}
+
+hr {
+  border-top: 1px solid #e5e7eb;
+  margin: 16px 0;
+}
+
+.menu-item,
+.search-item,
+.support-item {
+  color: #6b7280;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover,
+.search-item:hover,
+.support-item:hover {
+  color: #374151;
+}
+
+/* Adjust spacing between text and numbers in Trial Limits Section */
+.trial-limit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensures vertical alignment of text and numbers */
+  margin-bottom: 8px; /* Adjust margin for spacing between items */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+.trial-limit-item span {
+  padding-right: 16px; /* Add padding between text and number */
+  text-align: right; /* Align numbers to the right */
+}
+
+/* Search Bar */
+.search-bar input {
+  width: 250px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+/* Trial End Section */
+.trial-end-section {
+  background-color: #080838;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.trial-end-section p {
+  margin: 0;
+}
+
+.trial-end-highlight {
+  background-color: white;
+  color: #080838;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 16px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.trial-end-section button {
+  background-color: white;
+  color: #080838;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+/* Header */
+.header {
+  width: calc(100% - 300px); /* Adjusted to match the sidebar width */
+  margin-left: 300px; /* Aligns with the sidebar width */
+  background-color: #f3f4f6;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-title {
+  margin-left: 16px;
+  font-size: 24px;
+}
+
+/* Content */
+.content {
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 80px;
+}
+
+.content img {
+  display: block;
+  margin: 24px auto;
+  width: 150px;
+}
+
+/* Footer */
+
+
+/* Other Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #6c757d;
+}
+
+/* Footer */
+.footer {
+  width: calc(100% - 300px); /* Adjusted to match the sidebar width */
+  margin-left: 300px; /* Aligns with the sidebar width */
+  background-color: #ffffff;
+  padding: 16px;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+  position: fixed; /* Ensure it stays at the bottom */
+  bottom: 0; /* Position it at the bottom */
+}
+
+/* Darker text color for improved readability */
+.dark-text {
+  color: #000000;
+}
+
+/* New Styles for 'Coming Soon' Boxes */
+.coming-soon-box {
+  display: inline-block;
+  padding: 2px 6px;
+  border: 1px solid #d1d5db; /* Slightly lighter border color */
+  border-radius: 4px; /* Rounded corners */
+  color: #6b7280;
+  background-color: #f3f4f6; /* Slightly lighter background */
+  font-size: 10px; /* Smaller font size */
+}
+/* Updated $49 and You asked, we listened Section */
+.bg-gradient-to-r.from-blue-400.to-blue-600 {
+  background-color: #087af5; /* Darker blue */
+}  
+.search-item button {
+  background-color: #f3f4f6; /* Match the Coming Soon box color */
+  border: 1px solid #d1d5db; /* Slightly lighter border color */
+  color: #6b7280; /* Same color as Coming Soon box text */
+}
